@@ -8779,10 +8779,8 @@ textarea.form-control {
 
 .astro {
   margin-top: 0;
-height: 300px;
-width: 600px;
-max-width: 99%;
-max-height: 99%;
+  max-width: 500px;
+
 
 }
   
