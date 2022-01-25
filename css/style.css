@@ -402,6 +402,13 @@ mark,
   max-width: 100%;
   height: auto; }
 
+  .img3 {
+    height: 100px;
+    display: fill;
+
+
+  }
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
@@ -2103,6 +2110,12 @@ fieldset:disabled a.btn {
       -webkit-box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
       box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5); }
 
+
+.btn3 {
+  align-items: center;
+  text-align: center;
+  justify-items: center;
+}
 .btn-secondary {
   color: #fff;
   background-color: #6c757d;
@@ -9842,3 +9855,40 @@ background: linear-gradient(to right, #0ABFBC, #FC354C);
   width: 350px;
   border-style: none; }
 
+
+
+
+/* CSS */
+.button-37 {
+  background-color: #ffbd39;
+  border: 1px solid #ffbd39;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+  box-sizing: border-box;
+  color: black;
+  cursor: pointer;
+  font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 20px;
+  font-weight: 10000;
+  outline: none;
+  outline: 0;
+  padding: 10px 25px;
+  text-align: center;
+  transform: translateY(0);
+  transition: transform 150ms, box-shadow 150ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-37:hover {
+  box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+  color: white;
+  transform: translateY(-2px);
+}
+
+@media (min-width: 768px) {
+  .button-37 {
+    padding: 10px 30px;
+  }
+}
