@@ -8777,14 +8777,19 @@ textarea.form-control {
     .ftco-section {
       padding: 6em 0; } }
 
-.astro {
-  margin-top: 0;
-  max-width: 500px;
+astro {
+  display: block;
+  max-width:300px;
+  max-height:700px;
+  width: auto;
+  height: auto;
+}
 
+.container10 {
+  margin-top: 80px;
+  margin-bottom: 80px;
 
 }
-  
-
 .ftco-no-pt {
   padding-top: 0 !important; }
 
