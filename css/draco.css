@@ -9894,7 +9894,6 @@ h1 { color: #ffbd39; font-size: 48px; font-family: 'Signika', sans-serif; paddin
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .timeline ul {
-  background: #1d2124;
   padding: 50px 0;
   height: 600px;
 }
@@ -9905,7 +9904,6 @@ h1 { color: #ffbd39; font-size: 48px; font-family: 'Signika', sans-serif; paddin
   width: 6px;
   margin: 0 auto;
   padding-top: 50px;
-  background: #fff;
 }
 
 .timeline ul li::after {
@@ -9926,7 +9924,6 @@ h1 { color: #ffbd39; font-size: 48px; font-family: 'Signika', sans-serif; paddin
   bottom: 0;
   width: 400px;
   padding: 15px;
-  background: #ffbd39;
 }
 
 .timeline ul li div::before {
@@ -9974,7 +9971,6 @@ time {
 }
 
 .timeline ul li.in-view::after {
-  background: #ffbd39;
 }
 
 .timeline ul li div {
